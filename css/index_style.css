@@ -1,0 +1,72 @@
+.header{
+    background-color: #2D303D;
+    border-radius: 2px 2px 2px 2px;
+}
+
+.content{
+    background-color: #323544;
+    border-radius: 0px 0px 3px 3px;
+}
+
+.content h2{
+    font-size: 75px;
+}
+
+.middle .header{
+    background-color: #222531;
+}
+.middle{
+    background-color: #262936;
+}
+
+.Allcontent{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+
+body{
+    background-color: #262936;
+}
+
+
+.logo .word{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.logo .word p{
+    color: #bfc1c8
+    ;
+}
+
+.footer{
+    background-color: #262936;
+    position:relative;
+    padding-bottom: 50px;
+}
+
+.footer button{
+    position: absolute;
+    left: 49%;
+}
+.footer ul li{
+    list-style: none;
+    font-size: 35px;
+}
+.footer ul li a{
+
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    margin-right: 10px; 
+    padding: 10px;
+}
+.footer ul li a:hover {
+    background: #009ad8;
+    color: white;
+}
